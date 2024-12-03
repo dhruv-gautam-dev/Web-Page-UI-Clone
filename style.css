@@ -1,0 +1,184 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+.mainContainer{
+  height: 98vh;
+  width: 100%;
+}
+.mainContainer img{
+  position: relative;
+  width: 100%;
+  height: 800px;
+}
+.container{
+  position:absolute;
+  height: 99.7%;
+  width: 100%;
+  top:0px;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 99.9%;
+  height: 10%;
+  
+}
+.logo img{
+  width: 200px;
+}
+.search{
+  display:flex;
+}
+.searchlogo img{
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+.searchButton{
+  padding: 5px 15px;
+  background-color: #ED2589;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin-left: 15px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  font-size: 25px;
+}
+.menu li{
+  margin-right:20px ;
+  margin-left:20px ;
+  cursor: pointer;
+}
+
+.section{
+  display: flex;
+  height: 90%;
+}
+
+.writingSection{
+  width: 45%;
+
+  height: 100%;
+}
+.writingContent{
+  width: 80%;
+  margin-top: 250px;
+  margin-left: 150px;
+
+}
+.writingContent h1{
+  font-size: 90px;
+  margin-bottom: 0px;
+}
+.writingContent h3{
+  font-size: 30px;
+  font-weight: 100;
+}
+.applyButtons{
+  width: 70%;
+  display: flex;
+}
+.applyButtons button{
+  width: 50%;
+  padding:15px 15px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+#btn1{
+  background-color: #ED2589;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+#btn2{
+  border: 2px solid #ED2589;
+  color: #ED2589;
+  background-color: white;
+  font-size: large;
+  cursor: pointer;
+}
+
+.pictureSection{
+  width: 55%;
+  height: 100%;
+
+}
+.carloan{
+
+  box-shadow: 0 0 5px 5px gray;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 45px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: x-large;
+  top:10%;
+  left:10%;
+}
+.carloanimg, .homeloanimg{
+  margin-right: 20px;
+}
+.homeloan{
+  box-shadow: 0 0 5px 5px gray;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 45px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: x-large;
+  top: 35%;
+  left:60%;
+}
+.heroImage {
+  position: relative  ;
+  left:-11%;
+  width: 110%;
+  height: 90%;
+}
+.heroImage img{
+  height: 100%;
+  width: 100%;
+}
+.socialmedia{
+  display: flex;
+  align-items: center;
+  width: 55%;
+  padding: 5px 10px;
+  margin-top: 100px;
+}
+.socialMediaimages{
+  height: 100%;
+  width: 100%;
+}
+.imagediv{
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.phoneNo{
+  height: 30px;
+  margin-right: 10px;
+}
+.no{
+  font-size: xx-large;
+}
